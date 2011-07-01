@@ -27,12 +27,12 @@ Features:
 Examples:
 
     * You add a Post with the name "This is a very Interesting Post"
-          * The Permalink will look like this: http://www.myblog.org/this-is-a-very-interesting-post-12345 where 12345 is a randomly generated unique ID
+          -> The Permalink will look like this: http://www.myblog.org/this-is-a-very-interesting-post-12345 where 12345 is a randomly generated unique ID
     * You edit a Post with the name "This is a very Interesting Post" to "This is a very Interesting Post for sure" (The post was created after installing this Plugin)
-    	  * The new Permalink will look like this: http://www.myblog.org/this-is-a-very-interesting-post-for-sure-12345 where the unique ID 12345 remains the same
+    	  -> The new Permalink will look like this: http://www.myblog.org/this-is-a-very-interesting-post-for-sure-12345 where the unique ID 12345 remains the same
     
     * You edit a Post with the name "This is a very Interesting Post" to "This is a very Interesting Post for sure" (The post was created before installing this Plugin)
-          * The Permalink will not change.
+          -> The Permalink will not change.
 
 == Installation ==
 
