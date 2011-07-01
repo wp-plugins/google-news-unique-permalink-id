@@ -36,10 +36,6 @@ This Plugin will generate Permalinks formatted for Google News, i.e. `http://www
 
 == Installation ==
 
-This section describes how to install the plugin and get it working.
-
-e.g.
-
 1. Upload `google-news-unique-permalink-id.php` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Settings > Permalinks has to be set to "Custom Structure" /%postname% (dont forget the leading slash)
