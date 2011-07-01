@@ -10,29 +10,29 @@ This Plugin automatically is adding 5 Digit Unique IDs to Permalinks ready to us
 
 == Description ==
 
-This Plugin will generate Permalinks formatted for Google News, i.e. http://www.myblog.org/this-is-a-very-interesting-post-12345 or http://www.myblog.org/this-is-a-very-interesting-post-for-real-45678
+This Plugin will generate Permalinks formatted for Google News, i.e. `http://www.myblog.org/this-is-a-very-interesting-post-12345` or `http://www.myblog.org/this-is-a-very-interesting-post-for-real-45678`
 
 Requirements:
 
-    * Settings > Permalinks has to be set to "Custom Structure" /%postname% (dont forget the leading slash)
+* Settings > Permalinks has to be set to "Custom Structure" /%postname% (dont forget the leading slash)
 
 
 Features:
 
-    * Adds a unique 5-digit ID to all Permalinks on your Blog to make it work properly with Google News
-    * On Editing a Post which has already a Permanent ID, the URL may change if you are changing the Title, but the Unique ID always remains the same
-    * Older Posts which have been created before installing this Plugin will not be affected at all, neither on install nor on edit
-    * You are still free to add your own unique ID to the permalink, the Plugin won't override it
+* Adds a unique 5-digit ID to all Permalinks on your Blog to make it work properly with Google News
+* On Editing a Post which has already a Permanent ID, the URL may change if you are changing the Title, but the Unique ID always remains the same
+* Older Posts which have been created before installing this Plugin will not be affected at all, neither on install nor on edit
+* You are still free to add your own unique ID to the permalink, the Plugin won't override it
 
 Examples:
 
-    * You add a Post with the name "This is a very Interesting Post"
-          -> The Permalink will look like this: http://www.myblog.org/this-is-a-very-interesting-post-12345 where 12345 is a randomly generated unique ID
-    * You edit a Post with the name "This is a very Interesting Post" to "This is a very Interesting Post for sure" (The post was created after installing this Plugin)
-    	  -> The new Permalink will look like this: http://www.myblog.org/this-is-a-very-interesting-post-for-sure-12345 where the unique ID 12345 remains the same
+* You add a Post with the name "This is a very Interesting Post"
+	-> The Permalink will look like this: `http://www.myblog.org/this-is-a-very-interesting-post-12345` where 12345 is a randomly generated unique ID
+* You edit a Post with the name "This is a very Interesting Post" to "This is a very Interesting Post for sure" (The post was created after installing this Plugin)
+    	-> The new Permalink will look like this: `http://www.myblog.org/this-is-a-very-interesting-post-for-sure-12345` where the unique ID 12345 remains the same
     
-    * You edit a Post with the name "This is a very Interesting Post" to "This is a very Interesting Post for sure" (The post was created before installing this Plugin)
-          -> The Permalink will not change.
+* You edit a Post with the name "This is a very Interesting Post" to "This is a very Interesting Post for sure" (The post was created before installing this Plugin)
+        -> The Permalink will not change.
 
 == Installation ==
 
