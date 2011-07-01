@@ -6,7 +6,7 @@ Requires at least: 3.0
 Tested up to: 3.2
 Stable tag: 1.0
 
-This Plugin automatically is adding 5 Digit Unique IDs to Permalinks ready to use with Google News
+This Plugin automatically is adding 5 Digit Unique IDs to Permalinks. More Information: http://www.brainsap-development.com/wp-plugins/google-news-permalink.php
 
 == Description ==
 
