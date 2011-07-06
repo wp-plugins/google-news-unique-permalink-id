@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=ebay%
 Tags: permalink, google news, unique id
 Requires at least: 3.0
 Tested up to: 3.2
-Stable tag: 1.1
+Stable tag: trunk
 
 This Plugin automatically is adding 5 Digit Unique IDs to Permalinks ready for use with Google News.
 
