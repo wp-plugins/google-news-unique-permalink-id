@@ -71,5 +71,6 @@ function bsd_google_news_unique_permalink_id($data = array(), $postarr = array()
     return $data;
 }
 
+
 add_filter( 'wp_insert_post_data' , 'bsd_google_news_unique_permalink_id' , '99');
 ?>
