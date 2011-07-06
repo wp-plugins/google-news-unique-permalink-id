@@ -53,12 +53,8 @@ Checkout [Brainsap Development](http://www.brainsap-development.com/wp-plugins/g
 * Plugin Created
 
 == Upgrade Notice ==
-
 = 1.1 =
 * Important Bugfix
 
 = 1.0 =
 * Plugin Created
-
-
-
