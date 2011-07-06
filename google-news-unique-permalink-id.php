@@ -4,7 +4,7 @@ Plugin Name: Google News Unique Permalink ID
 Plugin URI: http://www.brainsap-development.com/wp-plugins/google-news-permalink.php
 Description: Plugin is adding 5 Digit Unique IDs to Permalinks
 Author: Lukas Najduk
-Version: 1.1
+Version: 1.0.1
 Author URI: http://www.brainsap-development.com
 */
 
