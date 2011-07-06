@@ -46,17 +46,17 @@ Checkout [Brainsap Development](http://www.brainsap-development.com/wp-plugins/g
 
 == Changelog ==
 
-= 1.0 =
-* Plugin Created
-
 = 1.0.1 =
 * Fixed a bug which added Unique IDs to Pages. Unique IDs should be only added to Posts now properly.
 
-== Upgrade Notice ==
-
 = 1.0 =
 * Plugin Created
 
+== Upgrade Notice ==
+
 = 1.0.1 =
 * Important Bugfix
+
+= 1.0 =
+* Plugin Created
 
