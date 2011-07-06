@@ -1,8 +1,8 @@
 <?php
 /*
 Plugin Name: Google News Unique Permalink ID
-Plugin URI: http://www.brainsap-development.com/wp-plugins/google-news-permalink.php
-Description: Plugin is adding 5 Digit Unique IDs to Permalinks ready to use with Google News
+Plugin URI: http://www.brainsap-development.com/wp-plugins/google-news-unique-permalink-id/
+Description: Plugin is adding 5 Digit Unique IDs to Permalinks
 Author: Lukas Najduk
 Version: 1.0
 Author URI: http://www.brainsap-development.com
@@ -10,8 +10,7 @@ Author URI: http://www.brainsap-development.com
 
 function bsd_google_news_unique_permalink_id($data = array(), $postarr = array()){ 
     global $wpdb;
-    if ($data['post_status'] == 'publish') {
-        
+    if ($data['post_status'] == 'publish' && $data['post_type'] == 'post') {
         $old_post_edit = false;
         $post_name = $data['post_name'];
         
