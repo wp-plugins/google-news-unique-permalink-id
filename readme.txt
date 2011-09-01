@@ -26,7 +26,7 @@ This Plugin will generate Permalinks formatted for Google News, i.e. `myblog.org
 *Example:*
 
 * You add a Post with the name "This is a very Interesting Post"
-	-> The Permalink will look like this: `myblog.org/this-is-a-very-interesting-post-12345` where 12345 is a randomly generated unique ID
+    -> The Permalink will look like this: `myblog.org/this-is-a-very-interesting-post-12345` where 12345 is a randomly generated unique ID
 
 This Plugin is powered by Brainsap Development - [Web Development Services](http://www.brainsap-development.com/ "Web Development Services")
 
