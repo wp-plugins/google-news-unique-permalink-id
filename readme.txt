@@ -16,7 +16,7 @@ This Plugin will generate Permalinks formatted for Google News, i.e. `myblog.org
 
 *Requirements - **Important**:*
 
-* Settings > Permalinks has to be set to "Custom Structure" **/%postname%** (don''t forget the leading slash)
+* Settings > Permalinks has to be set to "Custom Structure" **/%postname%** (don't forget the leading slash)
 
 
 *Features:*
