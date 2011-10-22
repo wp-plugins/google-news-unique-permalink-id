@@ -42,6 +42,9 @@ Checkout the [Google News Unique Permalink ID FAQ](http://www.brainsap-developme
 
 == Changelog ==
 
+= 1.0.3 =
+* Unique IDs will now be appended to scheduled/planned posts.
+
 = 1.0.2 =
 * Prevent function from being created when it already exists, Changed Plugin URLs and Readme.
 
@@ -52,6 +55,9 @@ Checkout the [Google News Unique Permalink ID FAQ](http://www.brainsap-developme
 * Plugin Created
 
 == Upgrade Notice ==
+
+= 1.0.3 =
+* Improvement of Functionality
 
 = 1.0.2 =
 * Minor Bugfix
