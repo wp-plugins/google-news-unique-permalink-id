@@ -4,7 +4,7 @@ Donate link: http://www.brainsap-development.com/plugins-resources/wordpress-plu
 Tags: permalink, google news, unique id
 Requires at least: 3.0
 Tested up to: 3.2.1
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 
 This Plugin automatically adds 5 Digit Unique IDs to Permalinks ready for use with Google News.
 
@@ -42,6 +42,9 @@ Checkout the [Google News Unique Permalink ID FAQ](http://www.brainsap-developme
 
 == Changelog ==
 
+= 1.0.4 =
+* Fixed a bug which did not properly change the slug on editing scheduled posts.
+
 = 1.0.3 =
 * Unique IDs will now be appended to scheduled/planned posts.
 
@@ -55,6 +58,9 @@ Checkout the [Google News Unique Permalink ID FAQ](http://www.brainsap-developme
 * Plugin Created
 
 == Upgrade Notice ==
+
+= 1.0.4 =
+* Minor Bugfix
 
 = 1.0.3 =
 * Improvement of Functionality

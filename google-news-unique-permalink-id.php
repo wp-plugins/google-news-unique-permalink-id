@@ -4,7 +4,7 @@ Plugin Name: Google News Unique Permalink ID
 Plugin URI: http://www.brainsap-development.com/plugins-resources/wordpress-plugin-google-news-unique-permalink-id/
 Description: Plugin adding 5 Digit Unique IDs to Permalinks ready for Google News
 Author: Lukas Najduk
-Version: 1.0.3
+Version: 1.0.4
 Author URI: http://www.brainsap-development.com/
 */
 if (!function_exists('bsd_google_news_unique_permalink_id')) {
@@ -52,7 +52,7 @@ if (!function_exists('bsd_google_news_unique_permalink_id')) {
                 // The post already has a unique id, so its either an edit of a post, or the unique id has
                 // been manually put in.
                 $unique_id = $unique_id_matches[0];
-                $check_sql = "SELECT ID,post_name FROM $wpdb->posts WHERE post_status='publish' AND post_type='post' AND post_name LIKE '%".$unique_id."%'";
+                $check_sql = "SELECT ID,post_name FROM $wpdb->posts WHERE (post_status='publish' OR post_status='future') AND post_type='post' AND post_name LIKE '%".$unique_id."%'";
                 $existing_post_name = $wpdb->get_results($check_sql);
                 // The unique id already exists
                 if (!empty($existing_post_name)) {
